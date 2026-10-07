@@ -1,0 +1,1 @@
+(sym_lib_table (version 7) (lib (name "RnDLibrary-Embedded-Sensors") (type "KiCad") (uri "${KIPRJMOD}/AS5600.kicad_sym") (options "") (descr "Retained AS5600 symbol with standard SOIC footprint")) (lib (name "Rdrop") (type "KiCad") (uri "${KIPRJMOD}/Rdrop.kicad_sym") (options "") (descr "Datasheet-compatible low-voltage alternatives")))

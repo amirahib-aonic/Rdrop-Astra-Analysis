@@ -1,0 +1,519 @@
+{
+  "engine": "9.0.7",
+  "zones": [
+    {
+      "uuid": "a0eae8ca-36b8-4c27-901c-011db39c70fb",
+      "layers": [
+        0
+      ],
+      "clearance_before_mm": 0.8,
+      "clearance_after_mm": 0.3
+    },
+    {
+      "uuid": "e51d2154-5fba-4386-a8ed-fa0b8de98b01",
+      "layers": [
+        2
+      ],
+      "clearance_before_mm": 0.8,
+      "clearance_after_mm": 0.3
+    }
+  ],
+  "tracks": [
+    {
+      "uuid": "31ef5721-37c4-4afb-a183-91e3dbcd6aab",
+      "net": "+5V_2",
+      "before_mm": 1.0,
+      "after_mm": 1.5,
+      "length_mm": 1.43
+    },
+    {
+      "uuid": "8fe0f9db-3934-486b-b89d-d72e3d65f1bd",
+      "net": "+5V_2",
+      "before_mm": 1.0,
+      "after_mm": 1.5,
+      "length_mm": 5.5529
+    },
+    {
+      "uuid": "1d886611-bd6e-4bd3-89fa-fe7d860c1dc4",
+      "net": "+5V_2",
+      "before_mm": 1.0,
+      "after_mm": 1.5,
+      "length_mm": 4.875
+    },
+    {
+      "uuid": "6a4d7f8d-76c3-4099-9ecd-1760d642f191",
+      "net": "+5V_2",
+      "before_mm": 1.0,
+      "after_mm": 1.5,
+      "length_mm": 0.728319984622144
+    },
+    {
+      "uuid": "c228a6d9-6566-492a-9b8f-61c2f1f1c938",
+      "net": "+5V_2",
+      "before_mm": 1.0,
+      "after_mm": 1.5,
+      "length_mm": 1.4283556979968262
+    },
+    {
+      "uuid": "ddcf7a62-9421-440f-ab91-25352fdc545b",
+      "net": "+5V_2",
+      "before_mm": 1.0,
+      "after_mm": 1.5,
+      "length_mm": 13.59
+    },
+    {
+      "uuid": "38a982f1-31e3-4093-b7da-6f7d5a66890a",
+      "net": "+5V_1",
+      "before_mm": 1.0,
+      "after_mm": 1.5,
+      "length_mm": 12.525
+    },
+    {
+      "uuid": "7b42af86-8700-4ae5-87a2-bdae6c66ada5",
+      "net": "+5V_1",
+      "before_mm": 1.0,
+      "after_mm": 1.5,
+      "length_mm": 7.276128778409574
+    },
+    {
+      "uuid": "0c479267-2ed6-4ae2-a3ff-444148215c8c",
+      "net": "+5V_1",
+      "before_mm": 1.0,
+      "after_mm": 1.5,
+      "length_mm": 1.6829141392239833
+    },
+    {
+      "uuid": "3e047d4c-6501-4dee-a039-87f970b2bc88",
+      "net": "+5V_1",
+      "before_mm": 1.0,
+      "after_mm": 1.5,
+      "length_mm": 0.7212489168102786
+    },
+    {
+      "uuid": "79876056-91ae-4bd8-a9f7-9bf3e1b5d42d",
+      "net": "+5V_1",
+      "before_mm": 1.0,
+      "after_mm": 1.5,
+      "length_mm": 1.3435028842544405
+    },
+    {
+      "uuid": "8b07e27b-5b8e-47e0-a421-9c9188633edd",
+      "net": "+5V_1",
+      "before_mm": 1.0,
+      "after_mm": 1.5,
+      "length_mm": 0.862670273047588
+    },
+    {
+      "uuid": "a100604c-2fe2-4a07-bb8b-b0f2b73a4795",
+      "net": "+5V_1",
+      "before_mm": 1.0,
+      "after_mm": 1.5,
+      "length_mm": 6.1275
+    },
+    {
+      "uuid": "af8104fb-2127-4010-826c-19c26e32aef8",
+      "net": "+5V_1",
+      "before_mm": 1.0,
+      "after_mm": 1.5,
+      "length_mm": 0.025
+    },
+    {
+      "uuid": "b49ec555-dbeb-4bc7-8021-23aae4556453",
+      "net": "+5V_1",
+      "before_mm": 1.0,
+      "after_mm": 1.5,
+      "length_mm": 7.11
+    },
+    {
+      "uuid": "be5ffec7-982b-4e36-9b7a-fda47f46750c",
+      "net": "+5V_1",
+      "before_mm": 1.0,
+      "after_mm": 1.5,
+      "length_mm": 36.42
+    },
+    {
+      "uuid": "ea8b7dc0-9f6a-40dc-a41f-a371bb869255",
+      "net": "+5V_1",
+      "before_mm": 1.0,
+      "after_mm": 1.5,
+      "length_mm": 0.042426406871192854
+    },
+    {
+      "uuid": "f1580c28-4462-418c-a6aa-7755514cde45",
+      "net": "+5V_1",
+      "before_mm": 1.0,
+      "after_mm": 1.5,
+      "length_mm": 2.9
+    },
+    {
+      "uuid": "32cc0a4c-58c2-4bfb-bd9e-dc7f79261db2",
+      "net": "+UBEC_OUT",
+      "before_mm": 0.8,
+      "after_mm": 1.2,
+      "length_mm": 0.9925
+    },
+    {
+      "uuid": "c2030e9c-479f-4819-afa8-48d06526600c",
+      "net": "+UBEC_OUT",
+      "before_mm": 0.8,
+      "after_mm": 1.2,
+      "length_mm": 2.9733840148894326
+    },
+    {
+      "uuid": "59d9cac1-4bbb-4a7c-98b0-3134c5ca3544",
+      "net": "+UBEC_OUT",
+      "before_mm": 0.8,
+      "after_mm": 1.2,
+      "length_mm": 3.71938166904124
+    },
+    {
+      "uuid": "86840676-2275-4376-aa27-94664568face",
+      "net": "+UBEC_OUT",
+      "before_mm": 0.8,
+      "after_mm": 1.2,
+      "length_mm": 1.535
+    }
+  ],
+  "vias": [
+    {
+      "uuid": "4f058209-c8e0-4b9f-b7aa-72ac596e9f02",
+      "x_mm": 190,
+      "y_mm": 104,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "5103b338-409e-489a-b3b5-4ae4d1853f16",
+      "x_mm": 190,
+      "y_mm": 110,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "a6444da1-77a7-4621-9709-567f652d4c49",
+      "x_mm": 190,
+      "y_mm": 116,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "252e0d64-be67-4016-a4a2-41b4f9598200",
+      "x_mm": 190,
+      "y_mm": 122,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "d03ba79b-2f0c-4446-963f-7663e0cc5c0d",
+      "x_mm": 190,
+      "y_mm": 134,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "b4dd7a33-aef1-4a96-b11f-eeef50c902d8",
+      "x_mm": 190,
+      "y_mm": 140,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "f5109881-d996-41fa-a389-535b86e29b68",
+      "x_mm": 190,
+      "y_mm": 146,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "1c30795d-1eeb-4a58-a370-36d789f87e49",
+      "x_mm": 190,
+      "y_mm": 164,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "d711969d-a0b2-45cb-bb32-4528ecd0d391",
+      "x_mm": 190,
+      "y_mm": 170,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "da337b94-2b8e-43b0-8fa6-fed4939105ff",
+      "x_mm": 196,
+      "y_mm": 104,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "a62c1e2c-7fc4-4343-b256-057f18a1f4e2",
+      "x_mm": 196,
+      "y_mm": 110,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "7e1838f3-ef65-4b3e-8d48-edabee23e854",
+      "x_mm": 196,
+      "y_mm": 116,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "ed7dad48-4d0a-41ae-8c1c-96bab078ccab",
+      "x_mm": 196,
+      "y_mm": 122,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "03dadaa3-797c-4d17-ba16-51785dd43cf3",
+      "x_mm": 196,
+      "y_mm": 134,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "bf96cb1e-32a4-4a60-a619-a5ad34a8ed71",
+      "x_mm": 196,
+      "y_mm": 140,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "7a7d458e-08df-4d22-8090-dac7046168c6",
+      "x_mm": 196,
+      "y_mm": 146,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "ab091ba1-f8e1-4725-9f13-990401a697a5",
+      "x_mm": 196,
+      "y_mm": 158,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "0c003798-fe19-4071-bedf-bb88ac67e76c",
+      "x_mm": 196,
+      "y_mm": 164,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "6c04c590-fe63-46f1-a685-370f970ca067",
+      "x_mm": 202,
+      "y_mm": 110,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "05e15dcb-8308-4fa4-a1a2-068f5a53d24d",
+      "x_mm": 202,
+      "y_mm": 134,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "02cf8eac-71b3-4944-8bb9-82d6eb872edf",
+      "x_mm": 202,
+      "y_mm": 140,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "83f1908e-48be-4d0c-8dcb-c7663d5c295d",
+      "x_mm": 202,
+      "y_mm": 146,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "a4af87c3-5e21-49e6-a645-8c971389039f",
+      "x_mm": 202,
+      "y_mm": 158,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "d937447c-dd04-42aa-90ed-05df7d6025d4",
+      "x_mm": 208,
+      "y_mm": 158,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "beb62826-1421-4f06-a1d8-d84699df7e99",
+      "x_mm": 208,
+      "y_mm": 170,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "27d15ff4-b6c6-47e1-a1b9-44a07a532ed2",
+      "x_mm": 214,
+      "y_mm": 140,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "afaafc92-153c-4351-af02-d25854cb5626",
+      "x_mm": 214,
+      "y_mm": 170,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "852bd6c5-30c3-4aae-9d8b-77855ad1a145",
+      "x_mm": 220,
+      "y_mm": 128,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "8d4ed9b1-c5d5-4d54-adae-d1c710ec256d",
+      "x_mm": 226,
+      "y_mm": 116,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "747cefeb-d623-4cd5-b31c-3fa29de4c4db",
+      "x_mm": 232,
+      "y_mm": 116,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "e33ae8e0-2945-475b-8e82-2f20a26c2bb5",
+      "x_mm": 232,
+      "y_mm": 128,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "25e6cc08-bdda-4d24-be4a-bb8f0fb3299d",
+      "x_mm": 232,
+      "y_mm": 170,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "b35144c2-46f7-4b66-b311-5689b9287cce",
+      "x_mm": 238,
+      "y_mm": 146,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "8337b717-4951-42d9-9adb-6c621894dd49",
+      "x_mm": 238,
+      "y_mm": 170,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "eba2fa26-b37a-4e66-8c9e-c4def7609f1d",
+      "x_mm": 244,
+      "y_mm": 122,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "23c66fe4-8d05-4c6a-a3c4-d33e21650c0b",
+      "x_mm": 244,
+      "y_mm": 152,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "38231787-8827-4f4f-aed7-17a2558a775c",
+      "x_mm": 244,
+      "y_mm": 158,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "cbd844e1-5888-4da9-8527-a3061e860717",
+      "x_mm": 250,
+      "y_mm": 164,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "d236f57e-b7d1-4b3a-99c8-a516b9ed016c",
+      "x_mm": 280,
+      "y_mm": 170,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    },
+    {
+      "uuid": "69ed1ec7-236f-429c-b66a-0b829ff3a820",
+      "x_mm": 292,
+      "y_mm": 158,
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4
+    }
+  ],
+  "rejected_width_changes": [
+    {
+      "uuid": "33dcc04a-68da-46ac-abc9-14f14b844d02",
+      "net": "+5V_2",
+      "before_mm": 1.0,
+      "after_mm": 1.5,
+      "length_mm": 3.068
+    },
+    {
+      "uuid": "d59b67b2-0072-4cc7-8c16-a5a8bba0c551",
+      "net": "+5V_2",
+      "before_mm": 1.0,
+      "after_mm": 1.5,
+      "length_mm": 5.4
+    },
+    {
+      "uuid": "f29ac1e3-2c80-4949-89cc-0f2107b0e8a6",
+      "net": "+5V_1",
+      "before_mm": 1.0,
+      "after_mm": 1.5,
+      "length_mm": 1.8198
+    },
+    {
+      "uuid": "109b701d-eebe-41b2-a856-4d2e9f344b4c",
+      "net": "+5V_1",
+      "before_mm": 1.0,
+      "after_mm": 1.5,
+      "length_mm": 6.14
+    },
+    {
+      "uuid": "317e9d76-75eb-488f-90a4-51a9b8c9a45b",
+      "net": "+5V_1",
+      "before_mm": 1.0,
+      "after_mm": 1.5,
+      "length_mm": 8.686806806876737
+    },
+    {
+      "uuid": "432518a4-6154-4fb2-a027-37da3119bf04",
+      "net": "+5V_1",
+      "before_mm": 1.0,
+      "after_mm": 1.5,
+      "length_mm": 8.95
+    },
+    {
+      "uuid": "42cd3acf-8253-40e7-8f70-5f27f708a503",
+      "net": "+UBEC_OUT",
+      "before_mm": 0.8,
+      "after_mm": 1.2,
+      "length_mm": 21.855
+    }
+  ],
+  "pad_connections": [
+    {
+      "reference": "J301",
+      "pad": "1",
+      "net": "GND",
+      "connection": "solid",
+      "reason": "Eliminate isolated thermal spoke after ground refill; maintain continuous supply return."
+    }
+  ]
+}

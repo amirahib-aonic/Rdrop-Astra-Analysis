@@ -1,0 +1,1315 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-06T10:01:36+0800",
+    "kicad_version": "9.0.7",
+    "schematic_parity": [],
+    "source": "hw-aonic-r-drop-main-board.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 110.07,
+                        "y": 162.40451
+                    },
+                    "uuid": "6b92ab2b-20aa-4c0f-82ea-c2f65bf7c646"
+                },
+                {
+                    "description": "Segment of CN401 on F.Silkscreen",
+                    "pos": {
+                        "x": 93.3397,
+                        "y": 120.50451
+                    },
+                    "uuid": "4c74fcf2-4dbe-476e-bad4-79cc302a2a69"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 110.07,
+                        "y": 162.40451
+                    },
+                    "uuid": "6b92ab2b-20aa-4c0f-82ea-c2f65bf7c646"
+                },
+                {
+                    "description": "Segment of CN401 on F.Silkscreen",
+                    "pos": {
+                        "x": 93.3401,
+                        "y": 154.30451
+                    },
+                    "uuid": "a7cd22e0-485b-46bb-acc1-4d7d2b23348f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 220.002434,
+                        "y": 104.06
+                    },
+                    "uuid": "6c912d4b-49ea-46f2-ab0f-badb201c86b7"
+                },
+                {
+                    "description": "Polygon of U201 on F.Silkscreen",
+                    "pos": {
+                        "x": 220.211799,
+                        "y": 104.35
+                    },
+                    "uuid": "c57b6869-0c88-46e5-b134-8e347719ab0b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)",
+            "items": [
+                {
+                    "description": "Pad 1 [+5V_1] of F502 on F.Cu",
+                    "pos": {
+                        "x": 157.16,
+                        "y": 160.94
+                    },
+                    "uuid": "d17930c1-fe9c-4661-a48f-c804196ba293"
+                }
+            ],
+            "severity": "warning",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)",
+            "items": [
+                {
+                    "description": "Pad 2 [SRV+] of F502 on F.Cu",
+                    "pos": {
+                        "x": 153.4532,
+                        "y": 160.94
+                    },
+                    "uuid": "c9c15924-e10b-4f15-aa09-1d4acb270cc3"
+                }
+            ],
+            "severity": "warning",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)",
+            "items": [
+                {
+                    "description": "Pad 1 [+UBEC_OUT] of F501 on F.Cu",
+                    "pos": {
+                        "x": 157.16,
+                        "y": 154.61
+                    },
+                    "uuid": "c6982da7-2ac6-4455-be90-be0bcee85304"
+                }
+            ],
+            "severity": "warning",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)",
+            "items": [
+                {
+                    "description": "Pad 2 [SRV+] of F501 on F.Cu",
+                    "pos": {
+                        "x": 153.4532,
+                        "y": 154.61
+                    },
+                    "uuid": "279218cd-8f53-4066-a26d-497dbbc1434a"
+                }
+            ],
+            "severity": "warning",
+            "type": "padstack"
+        },
+        {
+            "description": "Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R602",
+                    "pos": {
+                        "x": 237.88,
+                        "y": 162.99131
+                    },
+                    "uuid": "03175256-d83c-412d-9209-22efb8cca134"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R503",
+                    "pos": {
+                        "x": 214.4,
+                        "y": 160.0125
+                    },
+                    "uuid": "0358d6d4-d9b3-4fc2-85cc-780dbec9cb70"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint Q601",
+                    "pos": {
+                        "x": 236.03,
+                        "y": 158.68
+                    },
+                    "uuid": "05317ca6-9955-4158-97cf-68b5abaeccd0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R201",
+                    "pos": {
+                        "x": 216.925,
+                        "y": 114.83
+                    },
+                    "uuid": "0a037ecb-a40f-4c8d-97ba-0ac93575d32e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R603",
+                    "pos": {
+                        "x": 273.0,
+                        "y": 105.045
+                    },
+                    "uuid": "0c13fb96-6d9a-4ad3-ac11-aaff9dee9ec6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R504",
+                    "pos": {
+                        "x": 218.82625,
+                        "y": 163.4325
+                    },
+                    "uuid": "146b4173-8884-4dad-8386-e36594c156ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LED_0603_1608Metric' does not match copy in library 'LED_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint D604",
+                    "pos": {
+                        "x": 242.315,
+                        "y": 131.02
+                    },
+                    "uuid": "17d0738b-805d-46b3-964c-1136379c8989"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LED_0603_1608Metric' does not match copy in library 'LED_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint D606",
+                    "pos": {
+                        "x": 272.0,
+                        "y": 170.625
+                    },
+                    "uuid": "24c90a01-5d97-4dcb-b8d8-25e2dd60bde5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Kicad Custom Footprint'.",
+            "items": [
+                {
+                    "description": "Footprint U601",
+                    "pos": {
+                        "x": 268.611361,
+                        "y": 172.12
+                    },
+                    "uuid": "290d4976-195b-4a79-8a1c-9c31b5be9713"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R501",
+                    "pos": {
+                        "x": 214.4,
+                        "y": 162.5125
+                    },
+                    "uuid": "2d70a5ac-650f-4e2c-8c22-b1c2fbf4721f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C206",
+                    "pos": {
+                        "x": 213.37,
+                        "y": 147.41
+                    },
+                    "uuid": "2e67abc1-f87b-4c73-a8f9-6a169765fafb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOIC-8_3.9x4.9mm_P1.27mm' does not match copy in library 'Package_SO'.",
+            "items": [
+                {
+                    "description": "Footprint U701",
+                    "pos": {
+                        "x": 231.39,
+                        "y": 132.7025
+                    },
+                    "uuid": "3488f484-b9c8-4266-a467-eb0ff2557b5f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C202",
+                    "pos": {
+                        "x": 215.89,
+                        "y": 105.585
+                    },
+                    "uuid": "431aba66-7e2b-47b0-868b-8c91b17f251d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SMTSOM3100BTR' does not match copy in library 'RnDLibrary-Embedded-Hardware'.",
+            "items": [
+                {
+                    "description": "Footprint U305",
+                    "pos": {
+                        "x": 179.52,
+                        "y": 163.12
+                    },
+                    "uuid": "4655b660-f88d-4e4f-bba8-739bdffe084a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R601",
+                    "pos": {
+                        "x": 232.53,
+                        "y": 157.7675
+                    },
+                    "uuid": "4698e730-7bd8-4f4f-a502-ff1e9f52a6dc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R204",
+                    "pos": {
+                        "x": 220.03,
+                        "y": 139.4574
+                    },
+                    "uuid": "4a923507-1a77-4667-8d31-602688644fff"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SMTSOM3100BTR' does not match copy in library 'RnDLibrary-Embedded-Hardware'.",
+            "items": [
+                {
+                    "description": "Footprint U303",
+                    "pos": {
+                        "x": 172.1699,
+                        "y": 111.72
+                    },
+                    "uuid": "4b0044e1-e573-4403-a965-0cb4a20f0dd8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C201",
+                    "pos": {
+                        "x": 218.18,
+                        "y": 105.585
+                    },
+                    "uuid": "4cdf1da7-dbf9-45e6-854d-705b43782312"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R606",
+                    "pos": {
+                        "x": 243.1,
+                        "y": 144.925
+                    },
+                    "uuid": "51b96380-e774-489e-8917-ae02ea222e22"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R203",
+                    "pos": {
+                        "x": 220.03,
+                        "y": 144.9574
+                    },
+                    "uuid": "5709f808-0daf-4f3e-9b95-3dcd6f618003"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'MX23A18NF1' does not match copy in library 'RnDLibrary-Embedded-Connectors'.",
+            "items": [
+                {
+                    "description": "Footprint CN401",
+                    "pos": {
+                        "x": 125.14,
+                        "y": 137.40451
+                    },
+                    "uuid": "574707e2-ccb7-4076-8d91-d725f258d21b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'TestPoint_Pad_D3.0mm' does not match copy in library 'TestPoint'.",
+            "items": [
+                {
+                    "description": "Footprint TP402",
+                    "pos": {
+                        "x": 153.19,
+                        "y": 134.7
+                    },
+                    "uuid": "6140828c-e7ab-420c-b308-7640dfe36abe"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'R-Drop V3'.",
+            "items": [
+                {
+                    "description": "Footprint Q201",
+                    "pos": {
+                        "x": 220.3966,
+                        "y": 145.5076
+                    },
+                    "uuid": "6467f406-9ffa-4b55-a6bb-04a423147c2e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'LED_SideEmitter_Rectangular_W4.5mm_H1.6mm' does not match copy in library 'LED_THT'.",
+            "items": [
+                {
+                    "description": "Footprint D602",
+                    "pos": {
+                        "x": 267.341361,
+                        "y": 101.1
+                    },
+                    "uuid": "6aa684ec-caa8-467c-8e4c-7ed5d71c5be9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric_Pad0.74x0.62mm_HandSolder' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C701",
+                    "pos": {
+                        "x": 236.47,
+                        "y": 132.635
+                    },
+                    "uuid": "6ee41102-130e-4afa-8247-87f6a74c4cf8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SMTSOM3100BTR' does not match copy in library 'RnDLibrary-Embedded-Hardware'.",
+            "items": [
+                {
+                    "description": "Footprint U304",
+                    "pos": {
+                        "x": 169.72,
+                        "y": 163.12
+                    },
+                    "uuid": "772867ec-b558-4950-aa7b-5c71089da7c7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LED_0603_1608Metric' does not match copy in library 'LED_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint D601",
+                    "pos": {
+                        "x": 259.0,
+                        "y": 105.065
+                    },
+                    "uuid": "91dfcc89-31f2-427a-bfd6-d59f6f83ef12"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C205",
+                    "pos": {
+                        "x": 208.79,
+                        "y": 144.5674
+                    },
+                    "uuid": "98529195-d51b-407b-a131-ca5f7de619e6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LED_SideEmitter_Rectangular_W4.5mm_H1.6mm' does not match copy in library 'LED_THT'.",
+            "items": [
+                {
+                    "description": "Footprint D605",
+                    "pos": {
+                        "x": 237.65,
+                        "y": 138.67507
+                    },
+                    "uuid": "9d99bbab-9ede-4e45-9749-0b465fddd498"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'PinHeader_1x04_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'.",
+            "items": [
+                {
+                    "description": "Footprint J201",
+                    "pos": {
+                        "x": 218.07,
+                        "y": 168.35
+                    },
+                    "uuid": "9da29fb6-f673-4ed1-aac8-05ff67404a12"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'TQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm' does not match copy in library 'Package_DFN_QFN'.",
+            "items": [
+                {
+                    "description": "Footprint U202",
+                    "pos": {
+                        "x": 214.3975,
+                        "y": 143.6174
+                    },
+                    "uuid": "a29d2b36-be2e-489a-b0b9-5a67dcf6cf06"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Footprint Library'.",
+            "items": [
+                {
+                    "description": "Footprint G***",
+                    "pos": {
+                        "x": 245.56,
+                        "y": 109.64
+                    },
+                    "uuid": "a6e3dc8a-aaa3-4221-baac-4f3470b1478c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'LED_0603_1608Metric' does not match copy in library 'LED_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint D603",
+                    "pos": {
+                        "x": 290.345,
+                        "y": 130.94
+                    },
+                    "uuid": "a7830893-b3e0-4be0-96df-625dacd37c27"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C203",
+                    "pos": {
+                        "x": 216.941799,
+                        "y": 108.33
+                    },
+                    "uuid": "aafdbb87-b1d1-47b4-8923-bc5ba6777f53"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SMTSOM3100BTR' does not match copy in library 'RnDLibrary-Embedded-Hardware'.",
+            "items": [
+                {
+                    "description": "Footprint U302",
+                    "pos": {
+                        "x": 162.37,
+                        "y": 111.72
+                    },
+                    "uuid": "b5ae0e4a-3c4e-4a62-a25e-3ec5ab4746ce"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R502",
+                    "pos": {
+                        "x": 218.82625,
+                        "y": 159.0925
+                    },
+                    "uuid": "c2857db1-1b85-4c1f-8fea-2a64db3ac1bd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'TestPoint_Pad_D3.0mm' does not match copy in library 'TestPoint'.",
+            "items": [
+                {
+                    "description": "Footprint TP401",
+                    "pos": {
+                        "x": 153.19,
+                        "y": 124.94
+                    },
+                    "uuid": "c4b02d2c-5239-4afc-80e7-8eea0fd7ed5e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R202",
+                    "pos": {
+                        "x": 216.804299,
+                        "y": 110.496667
+                    },
+                    "uuid": "d1030d7c-b44f-405b-94a5-0a7fb7b9c7a0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R701",
+                    "pos": {
+                        "x": 226.4624,
+                        "y": 132.425
+                    },
+                    "uuid": "d61b638e-5cff-438d-8144-b901f722efe8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R607",
+                    "pos": {
+                        "x": 274.35,
+                        "y": 170.6625
+                    },
+                    "uuid": "dc072bb7-a252-43a4-ba72-3064d185aa85"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C602",
+                    "pos": {
+                        "x": 259.98,
+                        "y": 170.605
+                    },
+                    "uuid": "e0b6838f-7e9f-427a-8e56-e1c5860180bf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C204",
+                    "pos": {
+                        "x": 208.79,
+                        "y": 142.11
+                    },
+                    "uuid": "ee1e30c8-74f4-4180-9bcb-2fb725743c9f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'R-Drop V3'.",
+            "items": [
+                {
+                    "description": "Footprint Q202",
+                    "pos": {
+                        "x": 221.9798,
+                        "y": 146.2741
+                    },
+                    "uuid": "fbd76ccd-4ea8-4345-b6a3-c4d85b9551cf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Footprint Library'.",
+            "items": [
+                {
+                    "description": "Footprint G***",
+                    "pos": {
+                        "x": 244.470419,
+                        "y": 167.883143
+                    },
+                    "uuid": "1d2328cd-c58d-4f87-802e-3f2520dda841"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R702",
+                    "pos": {
+                        "x": 118.64,
+                        "y": 146.15456
+                    },
+                    "uuid": "5e8ff786-6955-4b76-a3a1-5283f2d4f325"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.8000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'HIGH VOLTAGE' on F.Silkscreen",
+                    "pos": {
+                        "x": 130.325,
+                        "y": 118.6
+                    },
+                    "uuid": "13af8785-3ab0-4fd5-8b25-0f44f195fb51"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.8000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'E' on F.Silkscreen",
+                    "pos": {
+                        "x": 297.45,
+                        "y": 138.85
+                    },
+                    "uuid": "1cf70bf9-21a5-4c6f-85e3-11b571dfc632"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.8000 mm)",
+            "items": [
+                {
+                    "description": "PCB text '(14S max)' on F.Silkscreen",
+                    "pos": {
+                        "x": 160.425,
+                        "y": 133.427501
+                    },
+                    "uuid": "1f0e761e-d091-4ea6-b72d-2fc563d504a5"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.8000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'C' on F.Silkscreen",
+                    "pos": {
+                        "x": 297.42,
+                        "y": 136.32
+                    },
+                    "uuid": "48f17694-3a73-42d3-8a44-d23aaf03d63c"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.8000 mm)",
+            "items": [
+                {
+                    "description": "PCB text '(18S max)' on F.Silkscreen",
+                    "pos": {
+                        "x": 164.0049,
+                        "y": 121.3
+                    },
+                    "uuid": "7a330746-3120-449c-8041-1c132988878f"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.8000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'A' on F.Silkscreen",
+                    "pos": {
+                        "x": 235.58,
+                        "y": 136.65
+                    },
+                    "uuid": "7d13ffd1-4f05-4378-ae26-946edb5dc754"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.8000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'A' on F.Silkscreen",
+                    "pos": {
+                        "x": 264.38,
+                        "y": 100.13
+                    },
+                    "uuid": "db05e604-9273-49e8-84e8-f009fd3af2f0"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.8000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'C' on F.Silkscreen",
+                    "pos": {
+                        "x": 266.91,
+                        "y": 100.1
+                    },
+                    "uuid": "f203f347-8154-4e4d-86ab-62e6c21db353"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.8000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'C' on F.Silkscreen",
+                    "pos": {
+                        "x": 235.61,
+                        "y": 139.18
+                    },
+                    "uuid": "fe7564de-3087-4f6f-adb0-ba89d8b545ae"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'ARD.MB-02.01.00\n\n' on B.Silkscreen",
+                    "pos": {
+                        "x": 244.13,
+                        "y": 174.153143
+                    },
+                    "uuid": "2e1dd10a-cbaa-4c59-a7ec-00a0aba57796"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.8000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'ARD.MB-02.01.00\n\n' on B.Silkscreen",
+                    "pos": {
+                        "x": 244.13,
+                        "y": 174.153143
+                    },
+                    "uuid": "2e1dd10a-cbaa-4c59-a7ec-00a0aba57796"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.9600 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of CN401 (10)",
+                    "pos": {
+                        "x": 122.2,
+                        "y": 147.50461
+                    },
+                    "uuid": "4f0eaadf-8c2b-4d64-a4e8-52127f241bf4"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.9600 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of CN401 (1)",
+                    "pos": {
+                        "x": 127.0999,
+                        "y": 148.60441
+                    },
+                    "uuid": "5fa0e6df-6363-4eea-9aa2-f80774c57dba"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.9600 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of CN401 (18)",
+                    "pos": {
+                        "x": 122.3501,
+                        "y": 125.70451
+                    },
+                    "uuid": "db1608a0-8508-4a97-9a2c-adeba43c2f64"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.9600 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of CN401 (9)",
+                    "pos": {
+                        "x": 127.0999,
+                        "y": 125.65451
+                    },
+                    "uuid": "ec0728ab-881d-4bd0-8ad7-a53fef64913b"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Arc on F.Silkscreen",
+                    "pos": {
+                        "x": 153.2949,
+                        "y": 164.445
+                    },
+                    "uuid": "26134797-3981-4e14-ad38-08655bf8a7b4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 153.2949,
+                        "y": 167.445
+                    },
+                    "uuid": "a275c242-b47f-4162-a68e-99b220ea9b6a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Footprint text of CN401 (9)",
+                    "pos": {
+                        "x": 127.0999,
+                        "y": 125.65451
+                    },
+                    "uuid": "ec0728ab-881d-4bd0-8ad7-a53fef64913b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 131.45,
+                        "y": 116.925
+                    },
+                    "uuid": "13846cbf-dc00-4228-a0d8-4dec4423930e"
+                },
+                {
+                    "description": "PCB text 'HIGH VOLTAGE' on F.Silkscreen",
+                    "pos": {
+                        "x": 130.325,
+                        "y": 118.6
+                    },
+                    "uuid": "13af8785-3ab0-4fd5-8b25-0f44f195fb51"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 131.45,
+                        "y": 116.925
+                    },
+                    "uuid": "13846cbf-dc00-4228-a0d8-4dec4423930e"
+                },
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 129.202719,
+                        "y": 117.429343
+                    },
+                    "uuid": "cf3c5095-bc3b-49f4-9846-07c00ef7166e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "PCB text 'HIGH VOLTAGE' on F.Silkscreen",
+                    "pos": {
+                        "x": 130.325,
+                        "y": 118.6
+                    },
+                    "uuid": "13af8785-3ab0-4fd5-8b25-0f44f195fb51"
+                },
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 127.75,
+                        "y": 127.7
+                    },
+                    "uuid": "765450ae-1c85-4cb5-8b34-6f25ba45a307"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "PCB text 'HIGH VOLTAGE' on F.Silkscreen",
+                    "pos": {
+                        "x": 130.325,
+                        "y": 118.6
+                    },
+                    "uuid": "13af8785-3ab0-4fd5-8b25-0f44f195fb51"
+                },
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 127.725,
+                        "y": 125.325
+                    },
+                    "uuid": "f8ced2be-bd15-4ced-9f0d-659950694b93"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "PCB text 'HIGH VOLTAGE' on F.Silkscreen",
+                    "pos": {
+                        "x": 130.325,
+                        "y": 118.6
+                    },
+                    "uuid": "13af8785-3ab0-4fd5-8b25-0f44f195fb51"
+                },
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 127.75,
+                        "y": 122.9
+                    },
+                    "uuid": "f9626e6d-7044-43ac-accc-bc3b28caefaa"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 159.277756,
+                        "y": 125.472243
+                    },
+                    "uuid": "4574bca6-4f25-4574-a361-f2b3dbedda9e"
+                },
+                {
+                    "description": "PCB text '(18S max)' on F.Silkscreen",
+                    "pos": {
+                        "x": 164.0049,
+                        "y": 121.3
+                    },
+                    "uuid": "7a330746-3120-449c-8041-1c132988878f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Footprint text of CN401 (1)",
+                    "pos": {
+                        "x": 127.0999,
+                        "y": 148.60441
+                    },
+                    "uuid": "5fa0e6df-6363-4eea-9aa2-f80774c57dba"
+                },
+                {
+                    "description": "Segment of CN401 on F.Silkscreen",
+                    "pos": {
+                        "x": 120.04,
+                        "y": 149.40451
+                    },
+                    "uuid": "ab4ddc89-0d7b-423d-81b0-ded95f0ae5a5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Footprint text of CN401 (10)",
+                    "pos": {
+                        "x": 122.2,
+                        "y": 147.50461
+                    },
+                    "uuid": "4f0eaadf-8c2b-4d64-a4e8-52127f241bf4"
+                },
+                {
+                    "description": "Segment of CN401 on F.Silkscreen",
+                    "pos": {
+                        "x": 120.04,
+                        "y": 149.40451
+                    },
+                    "uuid": "ab4ddc89-0d7b-423d-81b0-ded95f0ae5a5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 153.2949,
+                        "y": 167.445
+                    },
+                    "uuid": "a275c242-b47f-4162-a68e-99b220ea9b6a"
+                },
+                {
+                    "description": "Segment of 0.01 on F.Silkscreen",
+                    "pos": {
+                        "x": 159.239,
+                        "y": 170.419
+                    },
+                    "uuid": "bdf43adc-9e69-4d54-8496-f4b2fb0ba200"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Arc on F.Silkscreen",
+                    "pos": {
+                        "x": 153.2949,
+                        "y": 164.445
+                    },
+                    "uuid": "26134797-3981-4e14-ad38-08655bf8a7b4"
+                },
+                {
+                    "description": "Segment of 0.01 on F.Silkscreen",
+                    "pos": {
+                        "x": 151.111,
+                        "y": 164.831
+                    },
+                    "uuid": "5887173d-ce37-4c8f-91fd-c3ecfa19de9c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        }
+    ]
+}

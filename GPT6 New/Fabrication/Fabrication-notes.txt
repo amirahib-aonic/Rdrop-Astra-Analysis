@@ -1,0 +1,16 @@
+RDROP GPT6 REV A — PROTOTYPE FABRICATION NOTES
+2 copper layers; nominal finished thickness 1.60 mm; FR-4; ENIG; green soldermask; white silkscreen.
+Finished copper: 70 um (2 oz) on BOTH faces. Do not substitute 1 oz.
+Specify at least 25 um finished plated-through-hole copper wall thickness, including power-transition via arrays.
+Minimum copper width/spacing 0.20 mm; copper-to-routed-edge 0.30 mm.
+Smallest plated hole: 0.20 mm (standard WSON / ESP32 thermal-pad holes). Route vias 0.30/0.35 mm.
+Minimum via annular ring 0.15 mm for newly placed 0.60/0.30 mm and 0.70/0.35 mm vias.
+Use separate PTH and NPTH Excellon files. Preserve the supplied outline and internal cutout exactly.
+Tent ordinary vias. Match component-pad mask/paste apertures to Gerbers; inspect via-in-pad paste process.
+The ESP32 and WSON standard footprints contain thermal plated holes; assembler must assess solder wicking.
+Conductive regulator standoffs use standard Wurth copper lobes adjacent to NPTH; intentional same-footprint hole-clearance exception is included in KiCad rules.
+Gerbers and drills use absolute board coordinates, millimetres. No panelization or V scoring supplied.
+Assemble VARIANT A (7.4 V) unless the customer explicitly orders VARIANT B (5 V).
+Fit exactly one of F101/F102. R401 120-ohm CAN terminator is DNP unless this node is an endpoint.
+Inspect all connector pin 1 marks and semiconductor polarity against schematic and assembly drawing.
+Prototype electrical, thermal, optical and installed-mechanical qualification is required before flight.

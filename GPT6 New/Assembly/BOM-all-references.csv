@@ -1,0 +1,70 @@
+﻿Reference,Value,MPN,Manufacturer,Footprint,Fit_A,Fit_B,Procurement,Notes,Supplier_search
+J101,M3 REGULATOR STANDOFF,9774100360R,Wurth Elektronik,Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M3_H10mm_9774100360,YES,YES,PART,"M3 SMT conductive standoff, 10 mm height; original mounting centers retained. Verify regulator height and mounting interface.",https://www.digikey.com/en/products/result?keywords=9774100360R
+J102,M3 REGULATOR STANDOFF,9774100360R,Wurth Elektronik,Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M3_H10mm_9774100360,YES,YES,PART,"M3 SMT conductive standoff, 10 mm height; original mounting centers retained. Verify regulator height and mounting interface.",https://www.digikey.com/en/products/result?keywords=9774100360R
+J103,M3 REGULATOR STANDOFF,9774100360R,Wurth Elektronik,Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M3_H10mm_9774100360,YES,YES,PART,"M3 SMT conductive standoff, 10 mm height; original mounting centers retained. Verify regulator height and mounting interface.",https://www.digikey.com/en/products/result?keywords=9774100360R
+J104,M3 REGULATOR STANDOFF,9774100360R,Wurth Elektronik,Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M3_H10mm_9774100360,YES,YES,PART,"M3 SMT conductive standoff, 10 mm height; original mounting centers retained. Verify regulator height and mounting interface.",https://www.digikey.com/en/products/result?keywords=9774100360R
+TP101,SOLDER V7P4,WIRE_PAD,PCB feature,TestPoint:TestPoint_Pad_D4.0mm,YES,YES,BOARD FEATURE,Solder external regulator output here; strain relief required.,
+TP102,SOLDER GND,WIRE_PAD,PCB feature,TestPoint:TestPoint_Pad_D4.0mm,YES,YES,BOARD FEATURE,Solder external regulator output here; strain relief required.,
+TP103,SOLDER V5_EXT,WIRE_PAD,PCB feature,TestPoint:TestPoint_Pad_D4.0mm,YES,YES,BOARD FEATURE,Solder external regulator output here; strain relief required.,
+TP104,SOLDER GND,WIRE_PAD,PCB feature,TestPoint:TestPoint_Pad_D4.0mm,YES,YES,BOARD FEATURE,Solder external regulator output here; strain relief required.,
+J105,UBEC OUT MONITOR,TSW-103-07-G-S,Samtec,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,YES,YES,PART,Monitor only; do not carry servo current through this header.,https://www.digikey.com/en/products/result?keywords=TSW-103-07-G-S
+U101,TLV76750DRVR,TLV76750DRVR,Texas Instruments,Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias,YES,YES,PART,"7.4 V to 5 V logic LDO, 1 A maximum subject to thermal derating.",https://www.digikey.com/en/products/result?keywords=TLV76750DRVR
+C101,10uF,GRM188R61C106KAALD,Murata,Capacitor_SMD:C_0603_1608Metric,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=GRM188R61C106KAALD
+C102,10uF,GRM188R61C106KAALD,Murata,Capacitor_SMD:C_0603_1608Metric,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=GRM188R61C106KAALD
+D101,SS14,SS14-E3/61T,Vishay,Diode_SMD:D_SMA,YES,YES,PART,"Diode OR for logic supplies only, never servo load.",https://www.digikey.com/en/products/result?keywords=SS14-E3/61T
+D102,SS14,SS14-E3/61T,Vishay,Diode_SMD:D_SMA,YES,YES,PART,"Diode OR for logic supplies only, never servo load.",https://www.digikey.com/en/products/result?keywords=SS14-E3/61T
+U102,TLV1117LV33DCYR,TLV1117LV33DCYR,Texas Instruments,Package_TO_SOT_SMD:SOT-223-3_TabPin2,YES,YES,PART,Ceramic-stable 1117 alternative to AMS1117; 5.5 V maximum input.,https://www.digikey.com/en/products/result?keywords=TLV1117LV33DCYR
+C103,10uF,GRM188R61C106KAALD,Murata,Capacitor_SMD:C_0603_1608Metric,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=GRM188R61C106KAALD
+C104,10uF,GRM188R61C106KAALD,Murata,Capacitor_SMD:C_0603_1608Metric,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=GRM188R61C106KAALD
+C105,10uF,GRM188R61C106KAALD,Murata,Capacitor_SMD:C_0603_1608Metric,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=GRM188R61C106KAALD
+F101,MF-RG900-0,MF-RG900-0,Bourns,Fuse:Fuse_Bourns_MF-RG900,YES,DNP,PART,Populate ONE of F101/F102 only. 9 A hold / 15.3 A trip at 23 C; may interrupt 15 A / 30 s pulse.,https://www.digikey.com/en/products/result?keywords=MF-RG900-0
+F102,MF-RG900-0,MF-RG900-0,Bourns,Fuse:Fuse_Bourns_MF-RG900,DNP,YES,PART,Alternative 5 V servo population; DNP in 7.4 V assembly.,https://www.digikey.com/en/products/result?keywords=MF-RG900-0
+J106,SERVO GND / V+ / PWM,1711738,Phoenix Contact,TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-3-5.08_1x03_P5.08mm_Horizontal,YES,YES,PART,Current-rated 3-pin screw terminal; 5.08 mm pitch.,https://www.digikey.com/en/products/result?keywords=1711738
+R301,100,RC0603FR-07100RL,Yageo,Resistor_SMD:R_0603_1608Metric,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=RC0603FR-07100RL
+R302,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=RC0603FR-07100KL
+U201,ESP32-WROOM-32E-N4,ESP32-WROOM-32E-N4,Espressif,RF_Module:ESP32-WROOM-32E,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=ESP32-WROOM-32E-N4
+C201,10uF,GRM188R61C106KAALD,Murata,Capacitor_SMD:C_0603_1608Metric,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=GRM188R61C106KAALD
+C202,100nF,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=GRM188R71H104KA93D
+C203,1uF,GRM188R61E105KA12D,Murata,Capacitor_SMD:C_0603_1608Metric,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=GRM188R61E105KA12D
+R201,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=RC0603FR-0710KL
+R202,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=RC0603FR-0710KL
+SW201,RESET,TL3342F160QG,E-Switch,Button_Switch_SMD:SW_SPST_TL3342,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=TL3342F160QG
+SW202,BOOT,TL3342F160QG,E-Switch,Button_Switch_SMD:SW_SPST_TL3342,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=TL3342F160QG
+J201,UART PROGRAM,TSW-106-07-G-S,Samtec,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,YES,YES,PART,Use 3.3 V UART levels. Pin 2 monitor only; board externally powered.,https://www.digikey.com/en/products/result?keywords=TSW-106-07-G-S
+R203,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=RC0603FR-07100KL
+R204,33k,RC0603FR-0733KL,Yageo,Resistor_SMD:R_0603_1608Metric,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=RC0603FR-0733KL
+C204,100nF,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=GRM188R71H104KA93D
+J401,20-PIN CONTROL,TSW-110-07-G-D,Samtec,Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical,YES,YES,PART,All logic signals 3.3 V; do not connect high-voltage flight-controller signals directly.,https://www.digikey.com/en/products/result?keywords=TSW-110-07-G-D
+U401,SN65HVD230DR,SN65HVD230DR,Texas Instruments,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=SN65HVD230DR
+C401,100nF,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=GRM188R71H104KA93D
+R401,120,RC0603FR-07120RL,Yageo,Resistor_SMD:R_0603_1608Metric,DNP,DNP,PART,,https://www.digikey.com/en/products/result?keywords=RC0603FR-07120RL
+R402,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=RC0603FR-07100KL
+R403,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=RC0603FR-07100KL
+U501,AS5600-ASOM,AS5600-ASOM,ams OSRAM,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,YES,YES,PART,"Sensor center retained. Use diametrically magnetized magnet, verify air gap.",https://www.digikey.com/en/products/result?keywords=AS5600-ASOM
+C501,100nF,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=GRM188R71H104KA93D
+C502,1uF,GRM188R61E105KA12D,Murata,Capacitor_SMD:C_0603_1608Metric,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=GRM188R61E105KA12D
+R501,4.7k,RC0603FR-074K7L,Yageo,Resistor_SMD:R_0603_1608Metric,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=RC0603FR-074K7L
+R502,4.7k,RC0603FR-074K7L,Yageo,Resistor_SMD:R_0603_1608Metric,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=RC0603FR-074K7L
+D601,TSAL6200,TSAL6200,Vishay,LED_THT:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm,YES,YES,PART,Form leads so optical axes pass through the original mechanical apertures.,https://www.digikey.com/en/products/result?keywords=TSAL6200
+R601,220,RC0603FR-07220RL,Yageo,Resistor_SMD:R_0603_1608Metric,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=RC0603FR-07220RL
+Q601,"2N7002P,215","2N7002P,215",Nexperia,Package_TO_SOT_SMD:SOT-23,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=2N7002P%2C215
+R611,100,RC0603FR-07100RL,Yageo,Resistor_SMD:R_0603_1608Metric,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=RC0603FR-07100RL
+R621,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=RC0603FR-07100KL
+D602,TSAL6200,TSAL6200,Vishay,LED_THT:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm,YES,YES,PART,Form leads so optical axes pass through the original mechanical apertures.,https://www.digikey.com/en/products/result?keywords=TSAL6200
+R602,220,RC0603FR-07220RL,Yageo,Resistor_SMD:R_0603_1608Metric,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=RC0603FR-07220RL
+Q602,"2N7002P,215","2N7002P,215",Nexperia,Package_TO_SOT_SMD:SOT-23,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=2N7002P%2C215
+R612,100,RC0603FR-07100RL,Yageo,Resistor_SMD:R_0603_1608Metric,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=RC0603FR-07100RL
+R622,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=RC0603FR-07100KL
+Q603,TEFT4300,TEFT4300,Vishay,LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm,YES,YES,PART,Pad 1 collector / pad 2 emitter. Confirm lead orientation during formed-lead assembly.,https://www.digikey.com/en/products/result?keywords=TEFT4300
+R603,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=RC0603FR-0710KL
+C601,100nF,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=GRM188R71H104KA93D
+U601,TSSP4038,TSSP4038,Vishay,OptoDevice:Vishay_MOLD-3Pin,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=TSSP4038
+R604,100,RC0603FR-07100RL,Yageo,Resistor_SMD:R_0603_1608Metric,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=RC0603FR-07100RL
+C602,100nF,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=GRM188R71H104KA93D
+C603,1uF,GRM188R61E105KA12D,Murata,Capacitor_SMD:C_0603_1608Metric,YES,YES,PART,,https://www.digikey.com/en/products/result?keywords=GRM188R61E105KA12D
+H101,M3 MOUNT,M3_HARDWARE,Mechanical,MountingHole:MountingHole_3.2mm_M3,YES,YES,BOARD FEATURE,Original hole center and 3.2 mm drill retained.,
+H102,M3 MOUNT,M3_HARDWARE,Mechanical,MountingHole:MountingHole_3.2mm_M3,YES,YES,BOARD FEATURE,Original hole center and 3.2 mm drill retained.,
+H103,M3 MOUNT,M3_HARDWARE,Mechanical,MountingHole:MountingHole_3.2mm_M3,YES,YES,BOARD FEATURE,Original hole center and 3.2 mm drill retained.,
+H104,M3 MOUNT,M3_HARDWARE,Mechanical,MountingHole:MountingHole_3.2mm_M3,YES,YES,BOARD FEATURE,Original hole center and 3.2 mm drill retained.,
+H105,M3 MOUNT,M3_HARDWARE,Mechanical,MountingHole:MountingHole_3.2mm_M3,YES,YES,BOARD FEATURE,Original hole center and 3.2 mm drill retained.,
+H106,M3 MOUNT,M3_HARDWARE,Mechanical,MountingHole:MountingHole_3.2mm_M3,YES,YES,BOARD FEATURE,Original hole center and 3.2 mm drill retained.,

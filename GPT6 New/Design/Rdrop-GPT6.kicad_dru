@@ -1,0 +1,4 @@
+(version 1)
+(rule "Manufacturer standoff copper rings intentionally meet NPTH"
+  (condition "(A.memberOfFootprint('J101') && B.memberOfFootprint('J101')) || (A.memberOfFootprint('J102') && B.memberOfFootprint('J102')) || (A.memberOfFootprint('J103') && B.memberOfFootprint('J103')) || (A.memberOfFootprint('J104') && B.memberOfFootprint('J104'))")
+  (constraint hole_clearance (min 0mm)))
