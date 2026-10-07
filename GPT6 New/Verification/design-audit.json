@@ -1,0 +1,50 @@
+{
+  "original_sha256": "c80d10d69f5310de7cd80b0fb0a269ae44d5f7d4dcedefd1dde41fcfe5b25da2",
+  "outline_and_cutout_exactly_preserved": true,
+  "edge_geometry_count": 56,
+  "mounting_hole_centers_preserved": true,
+  "mounting_center_max_error_mm": 4.999999998744897e-05,
+  "mounting_centers_mm": [
+    [
+      132.0366,
+      105.3
+    ],
+    [
+      132.0366,
+      169.55
+    ],
+    [
+      200.7,
+      103.8
+    ],
+    [
+      200.7,
+      171.05
+    ],
+    [
+      293.45,
+      125.9051
+    ],
+    [
+      293.45,
+      148.9051
+    ]
+  ],
+  "outline_bounds_mm": {
+    "width": 189.580278,
+    "height": 79.741874
+  },
+  "components": 69,
+  "standard_footprints_missing": [],
+  "standard_pad_geometry_changes": [],
+  "all_standard_R_C_0603": true,
+  "missing_3d_models": [],
+  "copper_layers": 2,
+  "ERC_violations": 0,
+  "DRC_errors": 0,
+  "DRC_warnings": 4,
+  "unconnected_items": 0,
+  "schematic_parity_issues": 0,
+  "tracks": 837,
+  "vias": 839
+}

@@ -1,0 +1,66 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-06T16:11:50",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.5",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/d00b0ee3-0471-5a2b-b874-607b872fdca8",
+            "violations": []
+        },
+        {
+            "path": "/Power/",
+            "uuid_path": "/d00b0ee3-0471-5a2b-b874-607b872fdca8/761c147f-8532-5d97-a961-82ed08c9458f",
+            "violations": []
+        },
+        {
+            "path": "/Servo/",
+            "uuid_path": "/d00b0ee3-0471-5a2b-b874-607b872fdca8/d07a5bee-8491-53e5-b6e1-64b44a2838e0",
+            "violations": []
+        },
+        {
+            "path": "/MCU/",
+            "uuid_path": "/d00b0ee3-0471-5a2b-b874-607b872fdca8/57572483-0388-5d42-8924-f0052166b424",
+            "violations": []
+        },
+        {
+            "path": "/Interface/",
+            "uuid_path": "/d00b0ee3-0471-5a2b-b874-607b872fdca8/3514a129-eafd-5db6-a651-e51bee6bc924",
+            "violations": []
+        },
+        {
+            "path": "/Magnetic/",
+            "uuid_path": "/d00b0ee3-0471-5a2b-b874-607b872fdca8/2b683917-5e30-5d5a-af47-91ac6f3e8e1d",
+            "violations": []
+        },
+        {
+            "path": "/Optical/",
+            "uuid_path": "/d00b0ee3-0471-5a2b-b874-607b872fdca8/26d3ac9e-15d5-56b0-8463-4eedd2448e5a",
+            "violations": []
+        }
+    ],
+    "source": "Rdrop-GPT6.kicad_sch"
+}
